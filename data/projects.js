@@ -15,9 +15,9 @@ const projects = [
     desc: " It is a clone of hastebin allows you to paste you code and share to anybody via link.",
   },
   {
-    name: "Notes",
-    link: "https://github.com/devocoe/notes",
-    desc: "It is a note taking app build in react js. It stores all your notes in the local storage so they are totally safe. Ui is very simple but modern.",
+    name: "Rang",
+    link: "https://rang.devocoe.in/",
+    desc: "an online colour palette that includes every Google Material UI colour. The ui is very simple and look fantastic.",
   },
   {
     name: "PyTextEditor",
@@ -29,6 +29,6 @@ const projects = [
     link: "https://github.com/devocoe/quizard",
     desc: " It is a quiz game build using html,css and javascript, using open trivia database api, it is a simple but fun game you should try.",
   },
-];
+]
 
-export default projects;
+export default projects

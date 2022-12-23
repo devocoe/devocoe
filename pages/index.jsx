@@ -1,12 +1,12 @@
-import Head from "next/head";
-import ProjectCard from "../components/ProjectCard";
-import Heading from "../components/Heading";
-import { FiMessageCircle } from "react-icons/fi";
-import Navbar from "../layouts/Navbar";
-import Footer from "../layouts/Footer";
+import Head from "next/head"
+import ProjectCard from "../components/ProjectCard"
+import Heading from "../components/Heading"
+import { FiMessageCircle } from "react-icons/fi"
+import Navbar from "../layouts/Navbar"
+import Footer from "../layouts/Footer"
 
 // data
-import projects from "../data/projects";
+import projects from "../data/projects"
 
 export default function Home() {
   return (
@@ -65,11 +65,11 @@ export default function Home() {
                 desc={project.desc}
                 key={index}
               />
-            );
+            )
           })}
         </section>
       </main>
       <Footer />
     </>
-  );
+  )
 }
