@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="mt-16 border-t-2 border-primary">
       <div className="container flex py-6 justify-between items-center">
-        <p className="font-serif">
+        <p className="">
           <Link href="/"> devocoe.in</Link>
         </p>
         <p className="flex items-center">

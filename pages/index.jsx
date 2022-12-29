@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="secondary" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main className="font-serif container sm:py-12 py-6">
+      <main className=" container sm:py-12 py-6">
         <header className="sm:py-16 py-10 border-b  border-primary">
           <h1 className="text-4xl  font-bold">Hi, I&apos;m Piyush.</h1>
           <p className="text-lg mt-2 mb-8">
@@ -39,16 +39,18 @@ export default function Home() {
             I&apos;m Piyush Kumar, and I&apos;m an Indian. I first learned how
             to write code when I was in the 10th grade, and right now, I&apos;m
             in the 12th grade, giving me around{" "}
-            <strong>2 years of programming experience</strong>. I love using my
-            coding skills to create fun projects and find solutions for problems
-            in the real world.
+            <span className="font-medium">
+              2 years of programming experience
+            </span>
+            . I love using my coding skills to create fun projects and find
+            solutions for problems in the real world.
             <br />
             <br />
             My technical skills includes{" "}
-            <strong>
+            <span className="font-medium">
               HTML, CSS, Javascript, Python, Node.js, React.js, Next.js,
               Express.js, and Mongodb
-            </strong>
+            </span>
             . I have also worked on mobile development using React Native a
             little bit. My interests outside of coding include reading self-help
             books and travelling.

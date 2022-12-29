@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { FiCpu } from "react-icons/fi";
+import Link from "next/link"
+import { FiCpu } from "react-icons/fi"
 
 const Navbar = () => {
   return (
@@ -8,12 +8,12 @@ const Navbar = () => {
         <Link href="/">
           <a className="text-gray-600 flex">
             <FiCpu size={26} />
-            <h3 className="text-lg font-serif ml-2 font-medium ">Devocoe</h3>
+            <h3 className="text-lg  ml-2 font-medium ">Devocoe</h3>
           </a>
         </Link>
       </div>
     </header>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

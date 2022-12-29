@@ -18,7 +18,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        serif: ["Merriweather", "serif"],
+        sans: ["Poppins", "sans-serif"],
       },
       colors: {
         primary: "#dfe4ea",
@@ -26,4 +26,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+}
